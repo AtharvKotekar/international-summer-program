@@ -1,0 +1,146 @@
+.timeline-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline-container a{
+    text-decoration: none;
+}
+
+.timeline{
+    width: 90%;
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #E3E3E3;
+    align-self: center;
+    justify-self: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.timeline-header{
+    align-items: start;
+    justify-self: start;
+}
+
+.timeline-header h1{
+    font-family: "Inter", sans-serif;
+    font-size: 2.09408032rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.timeline-header p{
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #696969;
+    margin-top: 0.2rem;
+}
+
+
+
+.timeline-list{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-self: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.timeline-item{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 20rem;
+    margin: 1rem;
+    padding: 3rem;
+    transition: all 500ms ease-in-out;
+}
+
+.timeline-item:hover{
+    transform: scale(1.04); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#timeline-item-1{
+    background-color:#FFFFFF;
+}
+
+#timeline-item-2{
+    background-color:#1D1D1F;
+}
+
+#timeline-item-3{
+    background-color:#286DC0;
+}
+
+
+#timeline-title-white h2{
+    color: #FFFFFF ;
+}
+
+#timeline-title-white img{
+    filter: invert(1);
+}
+
+
+#timeline-date-white p{
+    color: #FFFFFF;
+}
+
+#timlinedes-des-white p{
+    color: #E3E3E3;
+}
+
+
+.timeline-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.timeline-title h2{
+    font-family: "Inter", sans-serif;
+    font-size: 1.29424rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #000;
+}
+
+
+.timeline-date p{
+    font-family: "Inter", sans-serif;
+    width: 90%;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000000;
+    margin-top: 0.5rem;
+}
+
+.timeline-des p{
+    font-family: "Inter", sans-serif;
+    width: 90%;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #696969;
+    margin-top: 1.2rem;
+}
+
+

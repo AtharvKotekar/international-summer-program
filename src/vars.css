@@ -1,0 +1,10 @@
+:root{
+    color: var(--White-100, #FFF);
+    color: var(--White-200, #E3E3E3);
+    color: var(--White-300, #696969);
+    color: var(--Black-100, #000);
+    color: var(--Black-200, #1D1D1F);
+    color: var(--Blue-100, #3185EB);
+    color: var(--Blue-200, #286DC0);
+
+}

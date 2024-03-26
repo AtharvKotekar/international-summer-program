@@ -1,0 +1,93 @@
+.hero2{
+    min-height: 130vh;
+    background-image: url('../Assets/hero2_bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: self-start;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 13%;
+
+}
+
+
+.heading2 {
+    font-family: "Inter", sans-serif;
+    font-size: 2.09408032rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #ffffff;
+}
+
+.subheading2 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.29424rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #E3E3E3;
+    margin-top: 1.2rem;
+}
+
+.white-gradient{
+    background: linear-gradient(180deg, #3185EB 20.45%, #B2B2B2 113.64%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.body2 {
+    font-family: "Inter", sans-serif;
+    width: 90%;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #696969;
+    margin-top: 1.2rem;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #000000;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 0.01rem;
+    margin-top: 1.2rem;
+    width: 10rem;
+    text-decoration: none;
+    transition: 500ms ease-in-out;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.btn_icon2{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 0.6rem;
+    margin-left: 0.5rem;
+    filter: invert(1);
+}
+
+.btn2:hover p {
+    color: #000000;
+}
+
+.btn2:hover img{
+    filter: invert(0);
+}
+
+.btn2:hover{
+    background-color: #ffffff;
+}

@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.header a{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+
+}
+
+.navbar-list li{
+    list-style: none;
+}
+
+.navbar-list li a{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    transition: 500ms;
+}
+
+.navbar-list li a:hover{
+    color: #286DC0;
+}
+
+.navbar-list li a img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_icon{
+    height: 1.6rem;
+}
+
+.search_icon{
+    height: 0.9rem;
+}
+
+
+

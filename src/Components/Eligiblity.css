@@ -1,0 +1,11 @@
+.eligiblity-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eligiblity-container a{
+    text-decoration: none;
+}
