@@ -1,0 +1,112 @@
+.footer-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3E3E3;
+    padding: 10%;
+}
+
+.footer-text p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #696969;
+}
+
+.coloums-group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 3rem;
+}
+
+.coloum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coloum ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.coloum ul li a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #696969;
+    text-align: center;
+}
+
+.coloum ul li a:hover {
+    text-decoration: underline;
+}
+
+.coloum ul li #coloum-title {
+    color: #000000;
+}
+
+.copyright-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.copyright-group p {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #696969;
+    text-align: center;
+}
+
+.copyright-group a {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #696969;
+    text-align: center;
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+.copyright-group a:hover {
+    text-decoration: underline;
+}
+
+.vertical {
+    border-left: 1px solid #696969;
+    height: 0.8rem;
+}
+
+.termsandcondition-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.line {
+    width: 100%;
+    height: 0.5px;
+    background-color: #696969;
+    margin: 3rem;
+    display:inline-block;
+  }
