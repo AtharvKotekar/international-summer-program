@@ -1,4 +1,6 @@
 .main-container h1{
+    width: 90%;
+    text-align: start;
     font-family: "Inter", sans-serif;
     font-size: 2.09408032rem;
     font-style: normal;
@@ -8,6 +10,10 @@
 }
 
 .main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
@@ -20,6 +26,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    align-self: flex-start;
+    justify-self: start;
     color: #1D1D1F;
     margin-top: 1.2rem;
 }
@@ -28,6 +36,27 @@
     margin-top: 5%;
     background-color: #D9D9D9;
     padding: 5%;
+}
+
+.container table{
+    margin-top: 2rem;
+}
+
+.container table tr{
+    padding: 1rem;
+}
+
+.container{
+    font-family: "Inter", sans-serif;
+    width: 90%;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000000;
+    margin-top: 5rem;
+    list-style: disc;
+
 }
 
 .container p{

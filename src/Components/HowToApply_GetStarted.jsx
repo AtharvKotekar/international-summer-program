@@ -1,5 +1,5 @@
 import React from 'react'
-import './HowToApply.css'
+import './Blog.css'
 
 const HowToApply_GetStarted = () => {
   return (

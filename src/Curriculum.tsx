@@ -1,8 +1,16 @@
 import React from 'react'
+import CurriculumComponents from './Components/CurriculumComponents'
+import './Components/Blog.css'
 
 const Curriculum = () => {
   return (
-    <div>Curriculum</div>
+    <>
+      
+      <div className='main-container'>
+      <h1>Curriculum</h1>
+        <CurriculumComponents />
+      </div>
+    </>
   )
 }
 
